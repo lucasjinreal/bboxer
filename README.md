@@ -1,5 +1,6 @@
 # Pure and Simple yet Powerful Bounding Box Tool
 
+![PicName](http://ofwzcunzi.bkt.clouddn.com/LkK4tYOsTpfjIWpq.png)
 bboxer has the following features:
 * drag a box you will see it right on image;
 * you can choose class index with number and you can see number on image;
@@ -10,10 +11,19 @@ bboxer has the following features:
 
 we are going add more features to this bboxer tool.
 
+![PicName](http://ofwzcunzi.bkt.clouddn.com/r5XTcbmtAR7xg0eu.png)
+![PicName](http://ofwzcunzi.bkt.clouddn.com/HZvhxCSGD6vJdKAV.png)
 # Install
 repo contains a cross-platform builded binary program which can be run at **any platform**.
 for using:
 ```
+git clone https://github.com/jinfagang/bboxer.git
+cd bboxer
+mkdir build
+cd build
+cmake ..
+make -j8
+sudo make install
 ./bboxer ~/Documents/images ~/Documents/labels
 ```
 * `~/Documents/images `: is your image contains directory;
@@ -29,4 +39,3 @@ class_index x_1 y_1 x_2 y_2
 # Contact
 if you have any question when using, please contact me via wechat: `jintianiloveu`, for more my projects, vists my website:
 [lewisjin.oschina.io](https://lewisjin.oschina.io)
-
