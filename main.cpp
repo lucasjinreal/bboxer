@@ -21,7 +21,6 @@ int main(int argc, char* argv[]){
     Time t;
     year = t.get_year();
     cout << "=====       welcome to bboxer version 1.0.0 (c) " << year << " JinFagang      =====" << endl;
-    echo_test();
 
     if (argc < 3){
         cout << "please specific a path contains images to bbox them. and your bbox label save directory." << endl;
